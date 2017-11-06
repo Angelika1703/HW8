@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Helvitica';
+	src: url('../fonts/helvitica_bold.eot');
+	src: local(''), url('../fonts/helvitica_bold.woff') format('woff'),
+	url('../fonts/helvitica_bold.ttf') format('truetype'),
+	url('../fonts/helvitica_bold.svg') format('svg');
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'Helvitica';
+	src: url('../fonts/HelveticaLight.eot');
+	src: local(''), 
+	url('../fonts/HelveticaLight.woff') format('woff'),
+	url('../fonts/HelveticaLight.ttf') format('truetype'), 
+	url('../fonts/HelveticaLight.svg') format('svg');
+	font-weight: 400;
+}

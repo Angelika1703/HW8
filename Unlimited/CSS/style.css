@@ -1,0 +1,181 @@
+.sec1 {
+	width: 100%;
+	background: url("../img/backg.jpg") no-repeat;
+	background-position-x: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+h1, h2, p, div {
+	margin: 0 auto;
+}
+h1, p {
+	text-align: center;
+	color: #fff;
+}
+h1 {
+	font: 60px/74px GothamPB;
+	padding-top: 100px;
+}
+.caption p {
+	font: 30px GothamPR;
+}
+.rightBlock {
+	margin-top: 129px;
+    padding-bottom: 300px;
+	float: right;
+	width: 50%;
+}
+.rightBlock p {
+	text-align: left;
+}
+.first {
+	color: #b6f1ff;
+	font: 42px/49px GothamPM;
+}
+.second {
+	font: 30px/50px GothamPR;
+	padding-top: 53px;
+	padding-bottom: 67px;
+}
+button {
+	cursor: pointer;
+	font-family: GothamPBl;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	width: 340px;
+	height: 71px;
+	border-radius: 5px;
+	background-color: #ff1744;
+	box-shadow: inset 0 -2px 2px #d50000;
+}
+button:hover {
+	background: #db1239;
+}
+h2 {
+	font: 50px/65px GothamPM;
+	text-align: center;
+}
+li {
+ 	float: left;
+ 	width: 220px;
+ 	padding: 36px;
+ 	text-align: center;
+ 	list-style-type: none;
+ }
+ul:first-child {
+  	padding-left: 0;
+  }
+
+.ht {
+	font: 20px/27px GothamPM;
+	padding-top: 20px;
+}
+.txt {
+	font: 20px/27px GothamPL;
+}
+.ic1 {
+ 	width: 72px;
+ 	height: 60px;
+	background: url(../img/ic1.png) 267px 0;
+}
+.ic2 {
+ 	width: 60px;
+ 	height: 45px;
+	background: url(../img/ic2.png) 360px 0px;
+	margin-top: 15px;
+}
+.ic3 {
+ 	width: 60px;
+ 	height: 57px;
+	background: url(../img/ic3.png) 180px 0px;
+	margin-top: 3px;
+}
+.ic4 {
+ 	width: 60px;
+ 	height: 71px;
+	background: url(../img/ic4.png) 1px 0px;
+	margin-bottom: -11px;
+}
+.ic5 {
+ 	width: 60px;
+ 	height: 54px;
+	background: url(../img/ic5.png) 300px 0;
+}
+.ic6 {
+ 	width: 60px;
+ 	height: 61px;
+	background: url(../img/ic6.png) 360px 0px;
+	margin-top: -8px;
+}
+.ic7 {
+ 	width: 60px;
+ 	height: 71px;
+	background: url(../img/ic7.png) 180px 0px;
+	margin-top: -15px;
+}
+.ic8 {
+ 	width: 60px;
+ 	height: 60px;
+	background: url(../img/ic8.png) 0px 0px;
+	margin-bottom: -6px;
+}
+.list3 {
+	float: left;
+	margin-left: 292px;
+	margin-bottom: 70px;
+}
+.ic9 {
+ 	width: 60px;
+ 	height: 62px;
+	background: url(../img/ic9.png) 180px 0px;
+	margin-top: -15px;
+}
+.ic10 {
+ 	width: 60px;
+ 	height: 63px;
+	background: url(../img/ic10.png) 0px 0px;
+	margin-bottom: -1px;
+	margin-top: -15px;
+}
+.sec3 {
+	background-color: #f5f5f5;
+}
+.sec3 .wrapper p {
+	color: black;
+}
+.sec3 .wrapper h2 {
+	padding-top: 53px;
+}
+.months {
+	font: 24px/43px GothamPL;
+}
+.left, .right {
+	overflow: hidden;
+	margin: 70px 100px;
+}
+.sec3 .left .img, .sec3 .left .descr p {
+	float: left;
+	text-align: left;
+	width: 50%;
+}
+.sec3 .right .img, .sec3 .right .descr p,  .sec3 .right h3 {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+h3 {
+	font: 48px GothamPR;
+	margin-bottom: 24px;
+}
+.caption {
+	font: 24px GothamPL;
+	padding-bottom: 60px;
+}
+.t {
+	font: 18px GothamPL;
+	padding-bottom: 45px;
+}

@@ -1,0 +1,90 @@
+
+div, h1, input {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.wrapper {
+	margin: 0;
+	background-image: url(../img/background.png);
+	background-size: 100%;	
+	width: 800px;
+	padding-top: 135px;
+	padding-bottom: 135px;
+	position: relative;
+}
+.white_block {
+	width: 370px;
+	padding: 30px 45px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,.2);
+	box-shadow: 0 4px 5px rgba(0,0,0,.1);
+	border: solid 1px rgba(255,255,255,.4);
+}
+.rope {
+	width: 50px;
+	height: 169px;
+	background: url(../img/rope.png) repeat-y;
+	position: absolute;
+	top: 0;
+	left: 375px;
+}
+.clear {
+	width: 83px;
+	height: 8px;
+	border-radius: 3px;
+	background-color: #99b190;
+  	border: solid 1px rgba(255,255,255,.4);
+  	box-shadow: inset 0 0 7px 0 rgba(0, 0, 0,.28);
+}
+h1 {
+	font-family: Helvitica;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 0 1px rgba(0,0,0,.15);
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px; 
+}
+input {
+	width: 280px;
+	height: 40px;
+	padding-left: 45px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border-style: none;
+	background-color: rgba(198,224,112,0);
+	border: solid 1px rgba(242,242,242,.3);
+	box-shadow: inset 0 0 3px rgba(0,0,0,.28);
+	font-family: Helvetica;
+	color: #fff;
+	font-size: 15px;
+	text-shadow: 0 1px rgba(0,0,0,.15);
+}
+.username {
+	background-image: url(../img/person.png);   
+    background-repeat: no-repeat;
+    background-position: 11px;
+}
+.password {
+	background-image: url(../img/lock.png);   
+    background-repeat: no-repeat;
+    background-position: 11px;
+}
+button {
+	cursor:pointer;
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	width: 280px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #91c46c;
+	box-shadow: 0 2px 2px rgba(0,0,0,.09), inset 0 1px #c8e5b3;
+	border: solid 1px #73a84c;
+}
+button:hover {
+	background: #759e57;
+}
+
