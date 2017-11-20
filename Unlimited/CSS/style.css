@@ -40,24 +40,27 @@ h1 {
 	padding-top: 53px;
 	padding-bottom: 67px;
 }
-button {
+a {
 	cursor: pointer;
 	font-family: GothamPBl;
 	font-size: 24px;
 	text-transform: uppercase;
+	text-decoration: none;
 	color: #fff;
 	width: 340px;
 	height: 71px;
 	border-radius: 5px;
 	background-color: #ff1744;
 	box-shadow: inset 0 -2px 2px #d50000;
+	padding: 32px;
 }
-button:hover {
+a:hover {
 	background: #db1239;
 }
 h2 {
 	font: 50px/65px GothamPM;
 	text-align: center;
+	padding-top: 70px;
 }
 li {
  	float: left;
@@ -65,11 +68,10 @@ li {
  	padding: 36px;
  	text-align: center;
  	list-style-type: none;
- }
+}
 ul:first-child {
   	padding-left: 0;
   }
-
 .ht {
 	font: 20px/27px GothamPM;
 	padding-top: 20px;
@@ -144,14 +146,27 @@ ul:first-child {
 .sec3 {
 	background-color: #f5f5f5;
 }
+hr {
+	height: 2px;
+	background: #cfd8dc;
+}
 .sec3 .wrapper p {
 	color: black;
 }
-.sec3 .wrapper h2 {
-	padding-top: 53px;
+.left {
+	border-bottom: 1px solid #cfd8dc;
+	padding-bottom: 70px;
 }
-.months {
+.right {
+	border-bottom: 1px solid #cfd8dc;
+	padding-bottom: 70px;
+}
+.left:last-child {
+	border-bottom: none;
+}
+.subtitle {
 	font: 24px/43px GothamPL;
+	color: #000;
 }
 .left, .right {
 	overflow: hidden;
@@ -178,4 +193,208 @@ h3 {
 .t {
 	font: 18px GothamPL;
 	padding-bottom: 45px;
+}
+.sec4 .wrapper .cour {
+ 	float: left;
+ 	width: 50%;
+ 	text-align: center;
+ 	list-style-type: none;
+ 	padding: 0;
+ 	margin-bottom: 80px;
+ }
+ .message {
+	width: 164px;
+	background: url(../img/message.png) 164px 0px;
+	margin-top: 80px;
+	font-size: 36px;
+	font-family: GothamPM;
+	line-height: 0.836;
+	color: #fff;
+	padding: 16px 0px;
+}
+.btn {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 313px;
+    margin-bottom: 80px;
+	font-size: 18px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: rgb(255, 23, 68);
+	color: rgb(255, 23, 68);
+	border-radius: 5px;
+	padding: 0;
+	box-shadow: none;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	width: 270px;
+}
+.btn:hover {
+	background: #fdbecb;
+}
+.sec5 {
+	background-color: #fafafa;
+	position: relative;
+	padding-bottom: 80px;
+}
+.gift{
+	position: absolute;
+	top: 85px;
+	right: 420px;
+	background: url(../img/gift.png);
+	font: 18px GothamPM;
+	color: #fff;
+	padding: 9px 18px 7px 21px;
+}
+.baloon {
+	background: url(../img/baloon.png) 175px 215px;
+	position: absolute;
+	top: -100px;
+	left: 160px ;
+}
+.cont_txt p {
+	color: #000;
+	font: 18px/30px GothamPL;
+	padding-top: 30px;
+}
+.journey {
+	display: block;
+	margin: 70px auto;
+}
+h4 {
+	font: 24px GothamPM;
+	text-align: center;
+}
+iframe {
+	padding-top: 75px;
+	padding-bottom: 80px;
+}
+.sec6 .wrapper {
+	border-bottom: 1px solid #cfd8dc;
+}
+.sec7 .wrapper {
+	border-bottom: 1px solid #cfd8dc;
+}
+.tabs {
+	padding-top: 70px;
+	padding-bottom: 26px;
+}
+div[class|="tab"] {
+	width: 260px;
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 26px;
+}
+.img-1 {
+	width: 90px;
+	height: 125px;
+	background: url(../img/imgvar1.png);
+}
+.img-2 {
+	width: 90px;
+	height: 125px;
+	background: url(../img/imgvar2.png);
+}
+.img-3 {
+	width: 90px;
+	height: 125px;
+	background: url(../img/imgvar3.png);
+}
+.img-4 {
+	width: 90px;
+	height: 125px;
+	background: url(../img/imgvar4.png);
+}
+.tablink {
+	color: #000;
+	text-align: center;
+	font: 18px GothamPL;
+	text-transform: none;
+	padding: 0;
+}
+.text p {
+	color: #000;
+	padding-top: 34px;
+}
+.tab-family a {
+	position: relative;
+}
+.active::before {
+	content: '';
+	width: 190px;
+    border-radius: 10px;
+    height: 5px;
+    background-color: #ff1744;
+    position: absolute;
+    bottom: -209px;
+    left: 35px;
+    display: block;
+}
+.text span {
+	font: 18px GothamPM;
+}
+.sec8 {
+	padding-bottom: 75px; 
+}
+.pair{
+	float: left;
+    background: url(../img/pair.png);
+    width: 315px;
+    height: 541px;
+    margin-right: 225px;
+    margin-top: 90px;
+}
+.parts {
+	padding-top: 50px;
+}
+.t li {
+	font: 18px GothamPL;
+	color: #ff1744; 
+	list-style-type: disc;
+	text-align: left;
+	padding: 45px 25px;
+	padding-bottom: 0;
+	width: 50%;
+	float: right;
+}
+.t span {
+	color: #000;
+}
+.inactive {
+ display: none;
+}
+.imgstart{
+	float: left;
+    background: url(../img/fstart.png);
+    width: 214px;
+    height: 462px;
+    margin-right: 315px;
+    margin-top: 45px;
+}
+.fstart {
+	float: left;
+}
+.imgreboot{
+	float: left;
+    background: url(../img/mozg.png);
+    width: 309px;
+    height: 392px;
+    margin-right: 223px;
+    margin-top: 45px;
+}
+.reboot {
+	float: left;
+}
+.imgallinc{
+	float: left;
+    background: url(../img/allinc.png);
+    width: 432px;
+    height: 658px;
+    margin-right: 100px;
+    margin-top: 112px;
+}
+.allinc{
+	float: left;
 }
